@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+Name: Prabha Joyikutty
+ID: 991533645
  */
 package cardtrickice1;
 
@@ -45,7 +44,16 @@ public class Card
         this.suits = suits;
     }
    //number
-    
-    //method for suits
+    void Card(int i) {
+        Card c1 = new Card();
+        c1.setValue(1 + (int) (Math.random() * 13));
+
+        //method for suits
+        c1.setSuits(suits);
+
+        Card[] magicHand = null;
+
+        magicHand[i] = c1;
+    }
     
 }
