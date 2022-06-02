@@ -54,6 +54,10 @@ public class Card
         Card[] magicHand = null;
 
         magicHand[i] = c1;
+        
+         Card lukcyCard = new Card();
+        luckyCard.setValue = 8;
+        luckyCard.setSuits = spades;
     }
     
 }
